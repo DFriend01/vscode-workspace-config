@@ -1,0 +1,85 @@
+{
+    // Workspace folders
+    "folders": [
+        {
+            "path": "."
+        },
+    ],
+    
+    // VS Code IDE settings
+    "settings": {
+
+    },
+
+    // Recommended VS Code extensions (the extension identifier)
+    "extensions": {
+        "recommendations": [
+            // Software Development
+            "christian-kohler.path-intellisense",
+            "eamodio.gitlens",
+            "github.copilot",
+            "gruntfuggly.todo-tree",
+            "ms-vscode-remote.vscode-remote-extensionpack",
+            "streetsidesoftware.code-spell-checker",
+
+            // Theme
+            "jdinhlife.gruvbox",
+            "vscode-icons-team.vscode-icons",
+
+            // Utility
+            "janisdd.vscode-edit-csv",
+            "ms-vsliveshare.vsliveshare",
+            "tomoki1207.pdf",
+            "vscodevim.vim",
+
+            // Markdown
+            "bierner.markdown-preview-github-styles",
+            "davidanson.vscode-markdownlint",
+
+            // Python
+            "ms-python.debugpy",
+            "ms-python.isort",
+            "ms-python.black-formatter",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-toolsai.jupyter",
+
+            // MATLAB
+            "mathworks.language-matlab",
+
+            // Docker
+            "ms-azuretools.vscode-docker",
+        ]
+    },
+
+    // Add launch configurations here
+    // Documentation: https://code.visualstudio.com/docs/editor/debugging
+    // JSON Reference: https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [],
+        "compounds": []
+    },
+
+    // Add VS Code tasks here
+    // See documentation: https://code.visualstudio.com/Docs/editor/tasks
+    // https://code.visualstudio.com/docs/editor/tasks-appendix
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "My Task",
+                "command": "echo hello",
+                "type": "shell",
+                "args": [],
+                "problemMatcher": [
+                    "$tsc"
+                ],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            }
+        ]
+    }
+}
