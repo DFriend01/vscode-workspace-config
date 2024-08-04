@@ -88,6 +88,9 @@
             "ms-python.vscode-pylance",
             "ms-toolsai.jupyter",
 
+            // Rust
+            "rust-lang.rust-analyzer",
+
             // MATLAB
             "mathworks.language-matlab",
 
