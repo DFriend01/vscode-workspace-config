@@ -13,6 +13,7 @@
         "editor.insertSpaces": true,
         "editor.minimap.enabled": false,
         "editor.renderWhitespace": "trailing",
+        "editor.fontFamily": "FiraMono Nerd Font Mono,  Consolas, 'Courier New', monospace",
 
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
